@@ -11,8 +11,11 @@
     "deploy": "vite build && wrangler pages deploy dist --project-name=dnd-combat-manager"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
